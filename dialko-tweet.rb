@@ -16,7 +16,7 @@ Twitter.configure do |config|
 end
 
 get '/' do
-  'dialko-tweet'
+  "dialko-tweet #{Time.now.strftime('%H:%M')}"
 end
 
 get '/remind/:twitter_id' do
