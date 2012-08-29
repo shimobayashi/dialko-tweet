@@ -3,3 +3,5 @@
 
 source :rubyforge
 gem 'sinatra'
+gem 'twitter'
+gem 'builder'
