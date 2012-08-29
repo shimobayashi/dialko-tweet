@@ -1,1 +1,1 @@
-web: bundle exec ruby dialko_tweet.rb -p $PORT
+web: bundle exec ruby dialko-tweet.rb -p $PORT
