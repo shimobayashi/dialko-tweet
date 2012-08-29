@@ -16,7 +16,7 @@ Twitter.configure do |config|
 end
 
 get '/' do
-  'dialko_tweet'
+  'dialko-tweet'
 end
 
 get '/remind/:twitter_id' do
